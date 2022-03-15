@@ -20,6 +20,9 @@ If using a WDC W65C02, you must cut jumper W.
 
 Build instructions are on the back of the PCB. This document is for clarification if you find it unclear.
 
+It may struggle to fit inside a C116 or Plus/4, so you should solder the 6502 directly to the PCB to reduce height.  
+For C16, height is no problem.
+
 Status as of Rev1:
 -
 
