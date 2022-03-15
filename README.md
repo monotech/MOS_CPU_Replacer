@@ -23,6 +23,8 @@ Build instructions are on the back of the PCB. This document is for clarificatio
 It may struggle to fit inside a C116 or Plus/4 due to height, so for these machines you should solder the 6502 directly to the module's PCB, or the module directly to the C116 or Plus/4 motherboard.  
 For C16, height is not a problem.
 
+It is tested to fit next to a PLA20V8 replacement in a 250407 board. Other oversized replacement boards may interfere and require installing the module in an extra socket to raise it up.
+
 Status as of Rev1:
 -
 
