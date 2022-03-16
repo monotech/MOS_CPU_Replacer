@@ -33,7 +33,7 @@ Status as of Rev1:
 - 8501 config: :white_check_mark: Tested working in a C16 and a Plus/4.
 - 8502 config: :x: Works but has graphical glitches, likely due to a timing issue, so should only be built if you plan to help me diagnose this. For 8502, you must install a 2MHz-rated CPU (such as 6502A).
 
-![alt text](https://github.com/monotech/MOS_CPU_Replacer/raw/main/Built%208501.jpg "Built")
+![alt text](https://github.com/monotech/MOS_CPU_Replacer/raw/main/Built%206510.jpg "Built in 6510 config")
 
 Instructions:
 -
@@ -48,7 +48,7 @@ Instructions:
 
 ![alt text](https://github.com/monotech/MOS_CPU_Replacer/raw/main/8501%20diagram.png "Diagram for 8501 config")
 
-![alt text](https://github.com/monotech/MOS_CPU_Replacer/raw/main/Built%208501%20side.jpg "Built in 8501 mode, side view")
+![alt text](https://github.com/monotech/MOS_CPU_Replacer/raw/main/Built%206510%20side.jpg "Built in 6510 config, side view")
 
 
 **Troubleshooting**
