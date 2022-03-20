@@ -36,7 +36,7 @@ Status as of Rev1:
 Known issues:
 -
 
-- A local enthusiast has discovered that using this adapter in 8501 mode in their 64K-modded C16, results in Slipstream (https://psytronik.itch.io/slipstream) hanging, and causing resets to stop working (need a power cycle). One other person has confirmed this, and confirmed it doesn't happen with a real 8501, so the issue is with the MOS CPU Replacer. I will look into possible causes and update this page if a solution is found.
+- A local enthusiast has discovered that using this adapter in 8501 config in their 64K-modded C16, results in Slipstream (https://psytronik.itch.io/slipstream) hanging, and causing resets to stop working (need a power cycle). One other person has confirmed this, and confirmed it doesn't happen with a real 8501, so the issue is with the MOS CPU Replacer. I will look into possible causes and update this page if a solution is found. Testing the C64 version of Slipstream in a C64 works fine with either a real 6510 or the MOS CPU Replacer in 6510 config.
 
 
 ---
