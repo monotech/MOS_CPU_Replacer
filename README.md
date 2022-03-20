@@ -30,9 +30,16 @@ Status as of Rev1:
 
 - 6510 config: :white_check_mark: Tested working in a C64.
 - 6510T config: :grey_question: Not tested - I don't have a 1551.
-- 8501 config: :white_check_mark: Tested working in a C16 and a Plus/4.
+- 8501 config: :x: Tested working in a C16 and a Plus/4, but it has been found that at least one program crashes on a 64K-modded C16, that doesn't crash with a real 8501.
 - 8502 config: :x: Works but has graphical glitches, likely due to a timing issue, so should only be built if you plan to help me diagnose this. For 8502, you must install a 2MHz-rated CPU (such as 6502A).
 
+Known issues:
+-
+
+- A local enthusiast has discovered that using this adapter in 8501 mode in their 64K-modded C16, results in Slipstream (https://psytronik.itch.io/slipstream) hanging, and causing resets to stop working (need a power cycle). One other person has confirmed this, and confirmed it doesn't happen with a real 8501, so the issue is with the MOS CPU Replacer. I will look into possible causes and update this page if a solution is found.
+
+
+---
 ![alt text](https://github.com/monotech/MOS_CPU_Replacer/raw/main/Built%206510.jpg "Built in 6510 config")
 
 Instructions:
