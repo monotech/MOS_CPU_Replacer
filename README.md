@@ -28,8 +28,8 @@ It is tested to fit next to a PLA20V8 replacement in a 250407 board. Other overs
 Status as of Rev1:
 -
 
-- 6510 config: :x: Tested working in a C64 and C64C with a wide range of software. In one scenario, it was discovered that it causes graphical glitches when used in a C64 with a C0pperdragon video conversion device (which watches the VIC-II pins). This was on Rev1. It may or may not be resolved on Rev2.
-- 6510T config: :grey_question: Not tested - I don't have a 1551.
+- 6510 config: : : Tested working in a C64 and C64C with a wide range of software. In one scenario, it was discovered that it causes graphical glitches when used in a C64 with a C0pperdragon video conversion device (which watches the VIC-II pins). This was on Rev1. It may or may not be resolved on Rev2.
+- 6510T config: : : I don't have a 1551, but someone else has done some basic testing in their own, and it works.
 - 8501 config: :x: Tested working in a C16 and a Plus/4, but it has been found that at least one program crashes on a 64K-modded C16, that doesn't crash with a real 8501.
 - 8502 config: :x: Works but has graphical glitches, likely due to a timing issue, so should only be built if you plan to help me diagnose this. For 8502, you must install a 2MHz-rated CPU (such as 6502A).
 
